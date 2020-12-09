@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tom Senior</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/Default.CSS" />
+    <link rel="stylesheet" href="/CSS/ResponsiveNav.css" />
+    <link rel="stylesheet" href="/CSS/Header.css" />
+    <link rel="stylesheet" href="/CSS/Main.css" />
+    <link rel="stylesheet" href="/CSS/Footer.css" />
+  </head>
+  <body onload="typeWriter()">
+    <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Header Section -->
+    <header>
+      <!-- Text inserted through typeWriter() on body Load  -->
+      <h1 class="header_title" id="header_title"></h1>
+    </header>
+    <!-- Welcome Information Section -->
+    <div class="info_section">
+      <aside class="me_image">
+        <img class="me" src="/IMAGES/me.jpg" alt="image1" />
+      </aside>
+      <section class="into">
+        <h3>
+          Hi, My name is <span>Tom Senior</span> and welcome to my portfolio
+        </h3>
+      </section>
+      <section class="into">
+        <p>
+          My portfolio has been created just to demonstrate what Skills and
+          Projects i can do within my skillset.
+        </p>
+      </section>
+    </div>
+    <!-- Different Location Times Section -->
+    <div class="location_times">
+      <section class="location">
+        <img src="/IMAGES/London.jpg" alt="Image of London" class="icon" />
+        <p class="Destination">London</p>
+        <p class="time"><span>Local Time Is:</span></p>
+      </section>
+      <section class="location">
+        <img src="/IMAGES/china.jpg" alt="Image of China" class="icon" />
+        <p class="Destination">China</p>
+        <p class="time"><span>Local Time Is:</span></p>
+      </section>
+      <section class="location">
+        <img src="/IMAGES/new_york.jpeg" alt="Image of New York" class="icon" />
+        <p class="Destination">New York</p>
+        <p class="time"><span>Local Time Is:</span></p>
+      </section>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+      <p class="made_by">Made By Tom Senior in 2020</p>
+      <ul>
+        <li><a href="/HTML/main.html">Home</a></li>
+        <li><a href="/HTML/main.html">About</a></li>
+        <li><a href="/HTML/main.html">Terms and conditions</a></li>
+      </ul>
+    </footer>
+    <!-- Script Tags for Javascript -->
+    <script src="/JS/HeaderTitle.js"></script>
+    <script src="/JS/Time.js"></script>
+  </body>
+</html>
